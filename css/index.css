@@ -842,7 +842,9 @@ body:hover  #menu {
     line-height: 150px;
 }
 .third h5 span:nth-child(3),
-.third h5 span:nth-child(4) {
+.third h5 span:nth-child(4),
+.third h5 span:nth-child(5),
+.third h5 span:nth-child(6) {
     /*display: none;*/
     opacity: 0;
 }
@@ -851,7 +853,16 @@ body:hover  #menu {
     animation: thirdTitle 4.5s;
 }
 .third.current h5 span:nth-child(4) {
-    animation: thirdTitle 10.3s 4s;
+    animation: thirdTitle 5s 4s;
+}
+.third.current h5 span:nth-child(5) {
+    animation: thirdTitle 5s 9s;
+}
+.third.current h5 span:nth-child(5) {
+    animation: thirdTitle 5s 10s;
+}
+.third.current h5 span:nth-child(6) {
+    animation: thirdTitle 5s 15s;
 }
 
 .third .third-show {
@@ -882,6 +893,12 @@ body:hover  #menu {
     width: 60%;
     height: 85%;
     animation: thirdImg 6s 8s  ;
+}
+.third.current .third-show img:nth-child(4) {
+    animation: thirdImg 5s 13s  ;
+}
+.third.current .third-show img:nth-child(5) {
+    animation: thirdImg 5s 17s  ;
 }
 
 .third .third-mask {
